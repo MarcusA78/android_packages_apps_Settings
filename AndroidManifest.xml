@@ -856,5 +856,19 @@
             </intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info" />
         </receiver>
+
+	<activity android:name=".BacklightActivity">
+		<intent-filter>
+			<action android:name="android.intent.action.MAIN"/>
+		</intent-filter>
+	</activity>
+
+	<activity android:name=".LightLevelsActivity"
+		android:configChanges="keyboard|keyboardHidden|orientation">
+		<intent-filter>
+			<action android:name="android.intent.action.MAIN" />
+		</intent-filter>
+	</activity>
+
     </application>
 </manifest>

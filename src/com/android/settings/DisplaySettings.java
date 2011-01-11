@@ -204,7 +204,7 @@ public class DisplaySettings extends PreferenceActivity implements
         	startActivity(mNotificationPowerWigetPicker.getIntent());
         }
         
-        return true;
+        return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
