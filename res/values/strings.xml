@@ -2661,7 +2661,6 @@ found in the list of installed applications.</string>
     <string name="toggleAutoRotate">Orientation</string>
     <string name="toggleScreenTimeout">Screen Timeout</string>
     <string name="toggleAirplane">Airplane</string>
-    <string name="toggleFlashlight">Flashlight</string>
     <string name="toggleLockScreen">Lock Screen</string>
 
     <string name="toggleWifiDescription">Enable/disable Wifi</string>
@@ -2676,7 +2675,6 @@ found in the list of installed applications.</string>
     <string name="toggleAutoRotateDescription">Enable/disable orientation sensor</string>
     <string name="toggleScreenTimeoutDescription">Set diferent screen timeouts</string>
     <string name="toggleAirplaneDescription">Enable/disable airplane mode</string>
-    <string name="toggleFlashlightDescription">Enable/disable flashlight mode</string>
     <string name="toggleLockScreenDescription">Enable/disable lock screen</string>
 
     
@@ -2699,9 +2697,9 @@ found in the list of installed applications.</string>
     <string name="ringModeVibrateAsOn">Vibrate as ON</string>
     <string name="monitorDataRoaming">Monitor Data Roaming</string>
     <string name="autoEnableBluetoothWithPower">Ext. PWR enables Bluetooth</string>
-    <string name="autoDisableBluetoothWithPower">Ext. PWD disables Bluetooth</string>
-    <string name="autoEnableWifiWithPower">Ext. PWD enables Wifi</string>
-    <string name="autoDisableWifiWithPower">Ext. PWD disables Wifi</string>
+	<string name="autoDisableBluetoothWithPower">Ext. PWR disables Bluetooth</string>
+	<string name="autoEnableWifiWithPower">Ext. PWR enables Wifi</string>
+	<string name="autoDisableWifiWithPower">Ext. PWR disables Wifi</string>
   
     <string name="autoDisable3GDescription">2G when mobile data is disabled</string>
     <string name="autoEnable3GDescription">3G when mobile data is enabled</string>
@@ -2723,9 +2721,38 @@ found in the list of installed applications.</string>
     <string name="brightnessSpinner">Choose Brightness levels</string>
     <string name="ringModeSpinner">Choose Ring modes</string>
     <string name="screenTimeoutSpinner">Choose Screen Timeout</string>
-    <string name="backgroundImageSpinner">Choose background</string> 
+    <string name="backgroundImageSpinner">Choose background</string>
+    
+	<!-- Expanded View Power Widget -->
+	<string name="use_notif_power_widget_title">Use notification power widget</string>
+    <string name="title_widget_buttons">Expanded View Widget</string>
+    <string name="title_expanded_widget">Notification power widget</string>
+    <string name="summary_expanded_widget">Use the expanded views power widget</string>
+    <string name="title_expanded_hide_onchange">Hide on change</string>
+    <string name="summary_expanded_hide_onchange">Hide the notification pulldown after toggling a widget button</string>
+    <string name="expanded_color_mask">Indicator color</string>
+    <string name="title_widget_picker">Notification widget settings</string>
+    <string name="summary_widget_picker">Pick your widget buttons</string>
+    <string name="title_toggle_wifi">Toggle Wifi</string>
+    <string name="title_toggle_bluetooth">Toggle Bluetooth</string>
+    <string name="title_toggle_gps">Toggle GPS</string>
+    <string name="title_toggle_sound">Toggle Sound</string>
+    <string name="title_toggle_brightness">Toggle Brightness</string>
+    <string name="title_toggle_sync">Toggle Sync</string>
+    <string name="title_toggle_wifiap">Toggle Wifi AP</string>
+    <string name="title_toggle_screentimeout">Toggle Screentimeout</string>
+    <string name="title_toggle_mobiledata">Toggle Mobiledata</string>
+    <string name="title_toggle_lockscreen">Toggle Lockscreen</string>
+    <string name="title_toggle_networkmode">Toggle 2G/3G</string>
+    <string name="title_toggle_autorotate">Toggle Orientation</string>
+    <string name="title_toggle_airplane">Toggle Airplane mode</string>
+    <string name="title_toggle_sleep">Go to sleep</string>
+    <string name="widget_max_buttons">6 is the max amount of buttons.</string>
     
     <string name="notConfigured">Not configured. Please add again</string>
+    
+    <string name="toggleFlashlightDescription">Enable/disable flashlight mode</string>
+    <string name="toggleFlashlight">Flashlight</string>
 
     <string name="ok">Ok</string>
 

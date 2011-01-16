@@ -828,6 +828,14 @@
           </intent-filter>
 		</activity>
 
+	   <activity
+		   android:name="com.android.settings.NotificationPowerWidgetSettings"
+		   android:label="@string/title_widget_picker">
+			<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title">
             <intent-filter>

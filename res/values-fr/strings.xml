@@ -1161,4 +1161,29 @@
     <string name="sound_category_calls_title" msgid="3688531959256239012">"Appels entrants"</string>
     <string name="sound_category_notification_title" msgid="3502115998790286943">"Notifications"</string>
     <string name="sound_category_feedback_title" msgid="4399742321363475393">"Commentaires"</string>
+    
+    <!-- Expanded View Power Widget -->
+    <string name="title_widget_picker">"Paramètres widget barre notif."</string>
+    <string name="summary_widget_picker">"Choisissez les widgets"</string>
+    <string name="use_notif_power_widget_title">"Utiliser widget barre notif."</string>
+    <string name="title_expanded_hide_onchange">"Cacher lors d'un chgmt."</string>
+    <string name="title_expanded_widget">"Widget de la barre de notifications"</string>
+    <string name="title_widget_buttons">"Boutons du widget"</string>
+    <string name="summary_expanded_hide_onchange">"Cacher la barre après un changement."</string>
+    <string name="title_toggle_wifi">"Activer le Wifi"</string>
+    <string name="title_toggle_bluetooth">"Activer le Bluetooth"</string>
+    <string name="title_toggle_gps">"Activer le GPS"</string>
+    <string name="title_toggle_sound">"Activer le son"</string>
+    <string name="title_toggle_brightness">"Réglage luminosité"</string>
+    <string name="title_toggle_sync">"Activer la synchronisation"</string>
+    <string name="title_toggle_wifiap">"Activer le point d'accès wifi"</string>
+    <string name="title_toggle_screentimeout">"Temps de mise en veille"</string>
+    <string name="title_toggle_mobiledata">"Activer les données"</string>
+    <string name="title_toggle_lockscreen">"Vérouiller"</string>
+    <string name="title_toggle_networkmode">"Activer 2G/3G"</string>
+    <string name="title_toggle_autorotate">"Activer l'orientation"</string>
+    <string name="title_toggle_airplane">"Activer le mode avion"</string>
+    <string name="title_toggle_flashlight">"Activer la lampe de poche"</string>
+    <string name="title_toggle_sleep">"Mise en veille"</string>
+    <string name="widget_max_buttons">"Le nombre de boutons maximal est de 6"</string>
 </resources>
