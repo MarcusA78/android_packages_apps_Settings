@@ -32,6 +32,7 @@ public class NotificationPowerWidgetSettings extends PreferenceActivity {
     public static final String TOGGLE_NETWORKMODE_STR = "toggleNetworkMode";
     public static final String TOGGLE_AUTOROTATE_STR = "toggleAutoRotate";
     public static final String TOGGLE_AIRPLANE_STR = "toggleAirplane";
+    public static final String TOGGLE_FLASHLIGHT_STR = "toggleFlashlight";
     public static final String TOGGLE_SLEEPMODE_STR = "toggleSleepMode";
 
     private static final String TOGGLE_WIFI = "toggle_wifi";
@@ -143,10 +144,6 @@ public class NotificationPowerWidgetSettings extends PreferenceActivity {
         mToggleAirplane = (CheckBoxPreference) prefSet.findPreference(TOGGLE_AIRPLANE);
         mToggleFlashlight = (CheckBoxPreference) prefSet.findPreference(TOGGLE_FLASHLIGHT);
         mToggleSleepMode = (CheckBoxPreference) prefSet.findPreference(TOGGLE_SLEEPMODE);
-        
-		if (!getResources().getBoolean(R.bool.has_led_flash)) {
-			mToggleFlashlight.setEnabled(false);
-		}
     }
 
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
