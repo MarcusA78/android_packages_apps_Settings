@@ -32,7 +32,6 @@ public class NotificationPowerWidgetSettings extends PreferenceActivity {
     public static final String TOGGLE_NETWORKMODE_STR = "toggleNetworkMode";
     public static final String TOGGLE_AUTOROTATE_STR = "toggleAutoRotate";
     public static final String TOGGLE_AIRPLANE_STR = "toggleAirplane";
-    public static final String TOGGLE_FLASHLIGHT_STR = "toggleFlashlight";
     public static final String TOGGLE_SLEEPMODE_STR = "toggleSleepMode";
 
     private static final String TOGGLE_WIFI = "toggle_wifi";
@@ -48,7 +47,6 @@ public class NotificationPowerWidgetSettings extends PreferenceActivity {
     private static final String TOGGLE_NETWORKMODE = "toggle_networkmode";
     private static final String TOGGLE_AUTOROTATE = "toggle_autorotate";
     private static final String TOGGLE_AIRPLANE = "toggle_airplane";
-    private static final String TOGGLE_FLASHLIGHT = "toggle_flashlight";
     private static final String TOGGLE_SLEEPMODE = "toggle_sleep";
 
     CheckBoxPreference mToggleWifi;
@@ -64,7 +62,6 @@ public class NotificationPowerWidgetSettings extends PreferenceActivity {
     CheckBoxPreference mToggleNetworkMode;
     CheckBoxPreference mToggleAutoRotate;
     CheckBoxPreference mToggleAirplane;
-    CheckBoxPreference mToggleFlashlight;
     CheckBoxPreference mToggleSleepMode;
 
     private boolean isNull(String mString) {
@@ -142,7 +139,6 @@ public class NotificationPowerWidgetSettings extends PreferenceActivity {
         mToggleNetworkMode = (CheckBoxPreference) prefSet.findPreference(TOGGLE_NETWORKMODE);
         mToggleAutoRotate = (CheckBoxPreference) prefSet.findPreference(TOGGLE_AUTOROTATE);
         mToggleAirplane = (CheckBoxPreference) prefSet.findPreference(TOGGLE_AIRPLANE);
-        mToggleFlashlight = (CheckBoxPreference) prefSet.findPreference(TOGGLE_FLASHLIGHT);
         mToggleSleepMode = (CheckBoxPreference) prefSet.findPreference(TOGGLE_SLEEPMODE);
     }
 

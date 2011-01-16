@@ -1183,7 +1183,6 @@
     <string name="title_toggle_networkmode">"Activer 2G/3G"</string>
     <string name="title_toggle_autorotate">"Activer l'orientation"</string>
     <string name="title_toggle_airplane">"Activer le mode avion"</string>
-    <string name="title_toggle_flashlight">"Activer la lampe de poche"</string>
     <string name="title_toggle_sleep">"Mise en veille"</string>
     <string name="widget_max_buttons">"Le nombre de boutons maximal est de 6"</string>
     
