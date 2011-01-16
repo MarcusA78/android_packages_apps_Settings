@@ -2750,6 +2750,9 @@ found in the list of installed applications.</string>
     <string name="widget_max_buttons">6 is the max amount of buttons.</string>
     
     <string name="notConfigured">Not configured. Please add again</string>
+    
+    <string name="toggleFlashlightDescription">Enable/disable flashlight mode</string>
+    <string name="toggleFlashlight">Flashlight</string>
 
     <string name="ok">Ok</string>
 
