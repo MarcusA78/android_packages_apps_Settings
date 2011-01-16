@@ -64,6 +64,8 @@ public class AccessibilitySettings extends PreferenceActivity {
         "power_button_ends_call";
     
     private static final String KEY_MENU_UNLOCK = "menu_unlock";
+	private static final String KEY_TRACKBALL_UNLOCK = "trackpad_unlock";
+	private static final String KEY_TRACKBALL_WAKE = "trackpad_wake";
 
     private CheckBoxPreference mToggleCheckBox;
     private CheckBoxPreference mMenuUnlock;
