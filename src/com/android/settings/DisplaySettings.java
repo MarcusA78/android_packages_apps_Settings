@@ -55,7 +55,6 @@ public class DisplaySettings extends PreferenceActivity implements
     private CheckBoxPreference mNotificationPowerWidget;
     private CheckBoxPreference mPowerWidgetHideOnChange;
     private PreferenceScreen mNotificationPowerWigetPicker;
-    private CheckBoxPreference mAccelerometer;
     private float[] mAnimationScales;
 
     private IWindowManager mWindowManager;
