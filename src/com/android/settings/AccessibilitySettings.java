@@ -66,7 +66,7 @@ public class AccessibilitySettings extends PreferenceActivity {
     private static final String KEY_MENU_UNLOCK = "menu_unlock";
 
     private CheckBoxPreference mToggleCheckBox;
-
+	private CheckBoxPreference mMenuUnlock;
     private PreferenceCategory mPowerButtonCategory;
     private CheckBoxPreference mPowerButtonEndsCallCheckBox;
 
