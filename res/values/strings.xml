@@ -2762,5 +2762,9 @@ found in the list of installed applications.</string>
     <!-- Trackpad and Menu key settings -->
     <string name="trackpad_cat">Wake/Unlock settings</string>
     <string name="menu_unlock_title">Menu unlock</string>
+    <string name="trackpad_wake_title">Trackpad wake</string>
+    <string name="trackpad_unlock_title">Trackpad unlock</string>
     <string name="menu_unlock_summary">Unlock the device with Menu key</string>
+    <string name="trackpad_unlock_summary">Unlock the device with trackpad</string>
+    <string name="trackpad_wake_summary">Wake-up the device with trackpad</string>
 </resources>

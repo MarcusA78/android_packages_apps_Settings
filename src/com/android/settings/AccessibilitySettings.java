@@ -66,7 +66,9 @@ public class AccessibilitySettings extends PreferenceActivity {
     private static final String KEY_MENU_UNLOCK = "menu_unlock";
 
     private CheckBoxPreference mToggleCheckBox;
-	private CheckBoxPreference mMenuUnlock;
+    private CheckBoxPreference mMenuUnlock;
+    private CheckBoxPreference mTrackballUnlock;
+    private CheckBoxPreference mTrackballWake;
     private PreferenceCategory mPowerButtonCategory;
     private CheckBoxPreference mPowerButtonEndsCallCheckBox;
 
@@ -90,7 +92,9 @@ public class AccessibilitySettings extends PreferenceActivity {
         mPowerButtonEndsCallCheckBox = (CheckBoxPreference) findPreference(
             POWER_BUTTON_ENDS_CALL_CHECKBOX);
         
-        mMenuUnlock = (CheckBoxPreference) findPreference(KEY_MENU_UNLOCK);
+		mMenuUnlock = (CheckBoxPreference) findPreference(KEY_MENU_UNLOCK);
+		mTrackballUnlock = (CheckBoxPreference) findPreference(KEY_TRACKBALL_UNLOCK);
+		mTrackballWake = (CheckBoxPreference) findPreference(KEY_TRACKBALL_WAKE);
 
         addAccessibilitServicePreferences();
     }
@@ -157,9 +161,15 @@ public class AccessibilitySettings extends PreferenceActivity {
             getPreferenceScreen().removePreference(mPowerButtonCategory);
         }
         
-		mMenuUnlock.setChecked(Settings.System.getInt(
+        mMenuUnlock.setChecked(Settings.System.getInt(
         	getContentResolver(),
         	Settings.System.MENU_UNLOCK, 0) != 0);
+        mTrackballUnlock.setChecked(Settings.System.getInt(
+        	getContentResolver(),
+        	Settings.System.TRACKBALL_UNLOCK, 0) != 0);
+        mTrackballWake.setChecked(Settings.System.getInt(
+        	getContentResolver(),
+        	Settings.System.TRACKBALL_WAKE, 0) != 0);
     }
 
     @Override
@@ -208,6 +218,16 @@ public class AccessibilitySettings extends PreferenceActivity {
         		getContentResolver(),
         		Settings.System.MENU_UNLOCK,
         		mMenuUnlock.isChecked() ? 1 : 0);
+        } else if (preference == mTrackballUnlock) {
+        	Settings.System.putInt(
+        		getContentResolver(),
+        		Settings.System.TRACKBALL_UNLOCK,
+        		mTrackballUnlock.isChecked() ? 1 : 0);
+        } else if (preference == mTrackballWake) {
+        	Settings.System.putInt(
+        		getContentResolver(),
+        		Settings.System.TRACKBALL_WAKE,
+        		mTrackballWake.isChecked() ? 1 : 0);
         } else if (preference instanceof CheckBoxPreference) {
             handleEnableAccessibilityServiceStateChange((CheckBoxPreference) preference);
         }
