@@ -222,13 +222,7 @@ public class NotificationPowerWidgetSettings extends PreferenceActivity {
             if(!manageList(TOGGLE_AIRPLANE_STR, value)) {
                 keyPref.setChecked(false);
             }
-		} else if (preference == mToggleFlashlight) {
-            CheckBoxPreference keyPref = (CheckBoxPreference) preference;
-            value = keyPref.isChecked();
-            if(!manageList(TOGGLE_FLASHLIGHT_STR, value)) {
-                keyPref.setChecked(false);
-            }
-        } else if (preference == mToggleSleepMode) {
+		} else if (preference == mToggleSleepMode) {
             CheckBoxPreference keyPref = (CheckBoxPreference) preference;
             value = keyPref.isChecked();
             if(!manageList(TOGGLE_SLEEPMODE_STR, value)) {
