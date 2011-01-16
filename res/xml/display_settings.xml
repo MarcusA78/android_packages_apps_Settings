@@ -60,11 +60,13 @@
 			</PreferenceScreen>
 		</PreferenceCategory>
 
-        <PreferenceScreen android:key="backlight_settings"
-            android:title="@string/backlight_title" android:summary="@string/backlight_summary">
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.settings"
-                android:targetClass="com.android.settings.BacklightActivity" />
-        </PreferenceScreen>
+		<PreferenceCategory android:title="@string/lights_settings_title">
+		    <PreferenceScreen android:key="backlight_settings"
+		        android:title="@string/backlight_title" android:summary="@string/backlight_summary">
+		        <intent android:action="android.intent.action.MAIN"
+		            android:targetPackage="com.android.settings"
+		            android:targetClass="com.android.settings.BacklightActivity" />
+		    </PreferenceScreen>
+		</PreferenceCategory>
 
 </PreferenceScreen>

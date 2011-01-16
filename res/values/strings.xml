@@ -2791,6 +2791,7 @@ found in the list of installed applications.</string>
     <string name="light_decrease_hysteresis_summary">Sensor levels overlap this much downwards.</string>
 
     <!-- Light sensor levels -->
+    <string name="lights_settings_title">Light settings</string>
     <string name="ll_title">Light sensor levels</string>
     <string name="ll_header_upper">Upper</string>
     <string name="ll_header_lower">Lower</string>
