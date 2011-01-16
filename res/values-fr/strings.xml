@@ -1186,4 +1186,9 @@
     <string name="title_toggle_flashlight">"Activer la lampe de poche"</string>
     <string name="title_toggle_sleep">"Mise en veille"</string>
     <string name="widget_max_buttons">"Le nombre de boutons maximal est de 6"</string>
+    
+    <!-- Trackpad and Menu key settings -->
+    <string name="trackpad_cat">"Réveil/Déverouillage"</string>
+    <string name="menu_unlock_title">"Déverouillage avec Menu"</string>
+    <string name="menu_unlock_summary">"La touche Menu déverouille le téléphone."</string>
 </resources>

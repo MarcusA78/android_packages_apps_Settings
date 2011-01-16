@@ -2758,4 +2758,9 @@ found in the list of installed applications.</string>
 
     <!-- Widget Picker -->
     <string name="widget_count">(%d widgets)</string>
+    
+    <!-- Trackpad and Menu key settings -->
+    <string name="trackpad_cat">Wake/Unlock settings</string>
+    <string name="menu_unlock_title">Menu unlock</string>
+    <string name="menu_unlock_summary">Unlock the device with Menu key</string>
 </resources>

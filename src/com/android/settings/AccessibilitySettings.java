@@ -62,6 +62,8 @@ public class AccessibilitySettings extends PreferenceActivity {
 
     private final String POWER_BUTTON_ENDS_CALL_CHECKBOX =
         "power_button_ends_call";
+    
+    private static final String KEY_MENU_UNLOCK = "menu_unlock";
 
     private CheckBoxPreference mToggleCheckBox;
 
@@ -87,6 +89,8 @@ public class AccessibilitySettings extends PreferenceActivity {
         mPowerButtonCategory = (PreferenceCategory) findPreference(POWER_BUTTON_CATEGORY);
         mPowerButtonEndsCallCheckBox = (CheckBoxPreference) findPreference(
             POWER_BUTTON_ENDS_CALL_CHECKBOX);
+        
+        mMenuUnlock = (CheckBoxPreference) findPreference(KEY_MENU_UNLOCK);
 
         addAccessibilitServicePreferences();
     }
@@ -152,6 +156,10 @@ public class AccessibilitySettings extends PreferenceActivity {
             // No POWER key on the current device; this entire category is irrelevant.
             getPreferenceScreen().removePreference(mPowerButtonCategory);
         }
+        
+		mMenuUnlock.setChecked(Settings.System.getInt(
+        	getContentResolver(),
+        	Settings.System.MENU_UNLOCK, 0) != 0);
     }
 
     @Override
@@ -195,6 +203,11 @@ public class AccessibilitySettings extends PreferenceActivity {
                     Settings.Secure.INCALL_POWER_BUTTON_BEHAVIOR,
                     (isChecked ? Settings.Secure.INCALL_POWER_BUTTON_BEHAVIOR_HANGUP
                             : Settings.Secure.INCALL_POWER_BUTTON_BEHAVIOR_SCREEN_OFF));
+        } else if (preference == mMenuUnlock) {
+        	Settings.System.putInt(
+        		getContentResolver(),
+        		Settings.System.MENU_UNLOCK,
+        		mMenuUnlock.isChecked() ? 1 : 0);
         } else if (preference instanceof CheckBoxPreference) {
             handleEnableAccessibilityServiceStateChange((CheckBoxPreference) preference);
         }
