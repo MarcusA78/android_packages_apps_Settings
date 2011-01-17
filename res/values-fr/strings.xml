@@ -1198,4 +1198,31 @@
     <!-- About phone screen,  setting option name-->
     <string name="mod_version">"Version du mod"</string>
     <string name="mod_version_default">"Inconnu"</string>
+
+    <!-- Backlight -->
+    <string name="backlight_title">"Rétro-éclairage automatique"</string>
+    <string name="backlight_summary">"Tweaks de niveau et de filtrage"</string>
+    <string name="light_filter_title">"Filtre de la lumière"</string>
+    <string name="light_filter_enabled_title">"Activé"</string>
+    <string name="light_filter_reset_title">"Réinitialiser le seuil"</string>
+    <string name="light_filter_interval_summary">"Une petite value accroît la précision mais utilise plus le CPU."</string>
+    <string name="light_levels_title">"Niveaux de lumière"</string>
+    <string name="light_levels_enabled_title">"Utiliser un personnalisé"</string>
+
+    <!-- Light sensor levels -->
+    <string name="lights_settings_title">"Paramètres des lumières"</string>
+    <string name="ll_title">"Niveau du capteur de lumière"</string>
+    <string name="ll_header_upper">"Plus"</string>
+    <string name="ll_header_lower">"Moins"</string>
+    <string name="ll_header_lcd">"Écran"</string>
+    <string name="ll_header_btn">"Boutons"</string>
+    <string name="ll_header_kb">"Clavier"</string>
+    <string name="ll_lcd">"Écran:"</string>
+    <string name="ll_btn">"Boutons:"</string>
+    <string name="ll_kb">"Clavier:"</string>
+    <string name="ll_disabled">"Désactivé"</string>
+    <string name="ll_default">"Utiliser les valeurs par défaut"</string>
+    <string name="ll_save">"Sauver et appliquer"</string>
+    <string name="ll_reload">"Actualiser"</string>
+    <string name="ll_num_levels">"Définir le nombre de niveaux"</string>
 </resources>
