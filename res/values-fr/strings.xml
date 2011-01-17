@@ -1225,4 +1225,7 @@
     <string name="ll_save">"Sauver et appliquer"</string>
     <string name="ll_reload">"Actualiser"</string>
     <string name="ll_num_levels">"Définir le nombre de niveaux"</string>
+    
+    <string name="move_all_apps_to_sd_title">"Déplacer vers la carte SD"</string>
+    <string name="move_all_apps_to_sd_summary">"Autoriser le déplacement de toutes les applications vers la carte mémoire."</string>
 </resources>

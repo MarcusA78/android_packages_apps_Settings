@@ -2811,5 +2811,9 @@ found in the list of installed applications.</string>
     <string name="ll_reload">Reload current</string>
     <string name="ll_bad_levels">Levels must be increasing</string>
     <string name="ll_num_levels">Set number of levels</string>
+    
+    <string name="move_all_apps_to_sd_title">Move to SD</string>
+    <string name="move_all_apps_to_sd_summary">Allow moving all apps to SD</string>
+    
 
 </resources>
