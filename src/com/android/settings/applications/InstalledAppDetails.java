@@ -235,7 +235,7 @@ public class InstalledAppDetails extends Activity
             moveDisable = !mCanBeOnSdCardChecker.check(mAppEntry.info);
         }
         boolean allowMoveAllApps = android.provider.Settings.Secure.getInt(getContentResolver(),
-                android.provider.Settings.Secure.MOVE_ALL_APPS_TO_SD, 1) == 1;
+                android.provider.Settings.System.MOVE_ALL_APPS_TO_SD, 1) == 1;
         if (!allowMoveAllApps && moveDisable) {
             mMoveAppButton.setEnabled(false);
         } else {
