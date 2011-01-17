@@ -1187,11 +1187,15 @@
     <string name="widget_max_buttons">"Le nombre de boutons maximal est de 6"</string>
     
     <!-- Trackpad and Menu key settings -->
-    <string name="trackpad_cat">"Réveil/Dévérouillage"</string>
-    <string name="menu_unlock_title">"Dévérouillage avec Menu"</string>
+    <string name="trackpad_cat">"Réveil/Dévérrouillage"</string>
+    <string name="menu_unlock_title">"Dévérrouillage avec Menu"</string>
     <string name="trackpad_wake_title">"Réveil avec le trackpad"</string>
-    <string name="trackpad_unlock_title">"Dévérouillage avec le trackpad"</string>
-    <string name="menu_unlock_summary">"La touche Menu dévérouille le téléphone."</string>
+    <string name="trackpad_unlock_title">"Dévérrouillage avec le trackpad"</string>
+    <string name="menu_unlock_summary">"La touche Menu dévérrouille le téléphone."</string>
     <string name="trackpad_wake_summary">"Le trackpad révéille le téléphone."</string>
-    <string name="trackpad_unlock_summary">"Le trackpad dévérouille le téléphone."</string>
+    <string name="trackpad_unlock_summary">"Le trackpad dévérrouille le téléphone."</string>
+    
+    <!-- About phone screen,  setting option name-->
+    <string name="mod_version">"Version du mod"</string>
+    <string name="mod_version_default">"Inconnu"</string>
 </resources>
