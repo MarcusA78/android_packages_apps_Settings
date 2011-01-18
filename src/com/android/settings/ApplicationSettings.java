@@ -132,7 +132,8 @@ public class ApplicationSettings extends PreferenceActivity implements
         
         if (preference == mToggleMoveAllAppsToSD) {
         	Settings.System.putInt(getContentResolver(),
-        			Settings.System.MOVE_ALL_APPS_TO_SD, 1);
+        			Settings.System.MOVE_ALL_APPS_TO_SD,
+        			mToggleMoveAllAppsToSD.isChecked() ? 1 : 0);
         }
 
         return super.onPreferenceTreeClick(preferenceScreen, preference);
