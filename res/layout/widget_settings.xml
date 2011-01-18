@@ -517,7 +517,7 @@
 
 				</LinearLayout>
 
-				<CheckBox android:id="@+id/toggleData" android:checked="true"
+				<CheckBox android:id="@+id/toggleData" android:checked="false"
 					android:layout_width="wrap_content" android:layout_height="wrap_content" />
 			</LinearLayout>
 
@@ -855,7 +855,7 @@
 
 				</LinearLayout>
 
-				<CheckBox android:id="@+id/useRoundCorners" android:checked="true"
+				<CheckBox android:id="@+id/useRoundCorners" android:checked="false"
 					android:layout_width="wrap_content" android:layout_height="wrap_content" />
 
 			</LinearLayout>
