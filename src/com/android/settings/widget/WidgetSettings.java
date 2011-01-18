@@ -142,7 +142,6 @@ public class WidgetSettings extends Activity {
         selectedButtons.add((CheckBox) findViewById(R.id.toggleWifi));
         selectedButtons.add((CheckBox) findViewById(R.id.toggleBluetooth));
         selectedButtons.add((CheckBox) findViewById(R.id.toggleGPS));
-        selectedButtons.add((CheckBox) findViewById(R.id.toggleData));
         selectedButtons.add((CheckBox) findViewById(R.id.toggleSync));
         selectedButtons.add((CheckBox) findViewById(R.id.toggleBrightness));
 
@@ -596,7 +595,7 @@ public class WidgetSettings extends Activity {
         editor.putInt(TOGGLE_WIFI, 1);
         editor.putInt(TOGGLE_BLUETOOTH, 2);
         editor.putInt(TOGGLE_GPS, 3);
-        editor.putInt(TOGGLE_DATA, 4);
+        editor.putInt(TOGGLE_DATA, 0);
         editor.putInt(TOGGLE_2G3G, 0);
         editor.putInt(TOGGLE_SYNC, 5);
         editor.putInt(TOGGLE_SOUND, 0);
@@ -608,7 +607,7 @@ public class WidgetSettings extends Activity {
         editor.putInt(TOGGLE_FLASHLIGHT, 0);
         editor.putInt(TOGGLE_WIFI_AP, 0);
 
-        editor.putBoolean(USE_ROUND_CORNERS, true);
+        editor.putBoolean(USE_ROUND_CORNERS, false);
         editor.putInt(BACKGROUND_IMAGE, 0);
         editor.putBoolean(USE_VERTICAL, false);
         editor.putInt(SAVED, SettingsAppWidgetProvider.WIDGET_PRESENT);
