@@ -144,7 +144,7 @@ public class AccessibilitySettings extends PreferenceActivity {
             mToggleCheckBox.setEnabled(false);
             // Notify user that they do not have any accessibility apps
             // installed and direct them to Market to get TalkBack
-            displayNoAppsAlert();
+            //displayNoAppsAlert();
         }
 
         if (KeyCharacterMap.deviceHasKey(KeyEvent.KEYCODE_POWER)) {
@@ -358,44 +358,5 @@ public class AccessibilitySettings extends PreferenceActivity {
             preference.setTitle(serviceInfo.loadLabel(getPackageManager()));
             mAccessibilityServicesCategory.addPreference(preference);
         }
-    }
-
-    /**
-     * Displays a message telling the user that they do not have any accessibility
-     * related apps installed and that they can get TalkBack (Google's free screen
-     * reader) from Market.
-     */
-    private void displayNoAppsAlert() {
-        try {
-            PackageManager pm = getPackageManager();
-            ApplicationInfo info = pm.getApplicationInfo("com.android.vending", 0);
-        } catch (NameNotFoundException e) {
-            // This is a no-op if the user does not have Android Market
-            return;
-        }
-        AlertDialog.Builder noAppsAlert = new AlertDialog.Builder(this);
-        noAppsAlert.setTitle(R.string.accessibility_service_no_apps_title);
-        noAppsAlert.setMessage(R.string.accessibility_service_no_apps_message);
-
-        noAppsAlert.setPositiveButton(android.R.string.ok,
-            new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int which) {
-                    String screenreaderMarketLink =
-                        SystemProperties.get("ro.screenreader.market",
-                                DEFAULT_SCREENREADER_MARKET_LINK);
-                    Uri marketUri = Uri.parse(screenreaderMarketLink);
-                    Intent marketIntent = new Intent(Intent.ACTION_VIEW, marketUri);
-                    startActivity(marketIntent);
-                    finish();
-                }
-            });
-
-        noAppsAlert.setNegativeButton(android.R.string.cancel,
-            new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int which) {
-                }
-            });
-
-        noAppsAlert.show();
     }
 }
