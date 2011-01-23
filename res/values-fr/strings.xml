@@ -1199,31 +1199,45 @@
     <string name="mod_version">"Version du mod"</string>
     <string name="mod_version_default">"Inconnu"</string>
 
+
     <!-- Backlight -->
-    <string name="backlight_title">"Rétro-éclairage automatique"</string>
-    <string name="backlight_summary">"Tweaks de niveau et de filtrage"</string>
-    <string name="light_filter_title">"Filtre de la lumière"</string>
-    <string name="light_filter_enabled_title">"Activer"</string>
-    <string name="light_filter_reset_title">"Réinitialiser le seuil"</string>
-    <string name="light_filter_interval_summary">"Une petite valeur accroît la précision mais utilise plus le CPU."</string>
+    <string name="backlight_title">"Rétroéclairage automatique"</string>
+    <string name="backlight_summary">"Tweaks et niveaux de filtrage"</string>
+    <string name="light_filter_title">"Filtrage du capteur de lumière"</string>
+    <string name="light_filter_enabled_title">"Activé"</string>
+    <string name="light_filter_enabled_summary">"Appliquer le filtre moyen afin de réduire le scintillement"</string>
+    <string name="light_filter_window_title">"Longueur de la fenêtre"</string>
+    <string name="light_filter_window_summary">"La valeur filtrée est la valeur moyenne du capteur de lumière durant une certaine période"</string>
+    <string name="light_filter_reset_title">"Seuil de remise à zéro"</string>
+    <string name="light_filter_reset_summary">"Les échantillons qui dépassent le seuil annulent le filtre"</string>
+    <string name="light_filter_interval_title">"Intervalle d\'échantillonage"</string>
+    <string name="light_filter_interval_summary">"Une valeur plus basse améliore l\'efficacité mais utilise plus le CPU"</string>
     <string name="light_levels_title">"Niveaux de lumière"</string>
-    <string name="light_levels_enabled_title">"Utiliser un personnalisé"</string>
+    <string name="light_levels_enabled_title">"Utiliser valeur personnalisée"</string>
+    <string name="light_levels_dim_title">"Niveau d\'obscurcissement"</string>
+    <string name="light_levels_dim_summary">"Niveau de luminosité utilisé pour l\'obscurcissement"</string>
+    <string name="light_levels_editor_title">"Éditer les autres niveaux..."</string>
+    <string name="light_decrease_enabled_title">"Autoriser diminution luminosité"</string>
+    <string name="light_decrease_enabled_summary">"Activer afin d\'autoriser la diminution des éclairages. Utiliser l\'hystérésis pour réduire le scintillement."</string>
+    <string name="light_decrease_hysteresis_title">"Diminuer l\'hystérésis"</string>
+    <string name="light_decrease_hysteresis_summary">"Les niveaux de mesures se chevaucheront de tant vers le bas."</string>
 
     <!-- Light sensor levels -->
-    <string name="lights_settings_title">"Paramètres des lumières"</string>
-    <string name="ll_title">"Niveau du capteur de lumière"</string>
-    <string name="ll_header_upper">"Plus"</string>
-    <string name="ll_header_lower">"Moins"</string>
+    <string name="ll_title">"Niveaux du capteur d\'éclairage"</string>
+    <string name="ll_header_upper">"Plus haut"</string>
+    <string name="ll_header_lower">"Plus bas"</string>
     <string name="ll_header_lcd">"Écran"</string>
     <string name="ll_header_btn">"Boutons"</string>
     <string name="ll_header_kb">"Clavier"</string>
-    <string name="ll_lcd">"Écran:"</string>
-    <string name="ll_btn">"Boutons:"</string>
-    <string name="ll_kb">"Clavier:"</string>
-    <string name="ll_disabled">"Désactivé"</string>
-    <string name="ll_default">"Utiliser les valeurs par défaut"</string>
-    <string name="ll_save">"Sauver et appliquer"</string>
-    <string name="ll_reload">"Actualiser"</string>
+    <string name="ll_lux">"Capteur (filtré / brut):"</string>
+    <string name="ll_lcd">"Écran :"</string>
+    <string name="ll_btn">"Boutons :"</string>
+    <string name="ll_kb">"Clavier :"</string>
+    <string name="ll_disabled">"désactivé"</string>
+    <string name="ll_default">"Charger défauts"</string>
+    <string name="ll_save">"Enregistrer &amp; appliquer"</string>
+    <string name="ll_reload">"Recharger actifs"</string>
+    <string name="ll_bad_levels">"Les niveaux doivent croître"</string>
     <string name="ll_num_levels">"Définir le nombre de niveaux"</string>
     
     <string name="move_all_apps_to_sd_title">"Déplacer vers la carte SD"</string>
