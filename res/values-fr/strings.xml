@@ -1278,6 +1278,7 @@
 
 
     <!-- Backlight -->
+    <string name="lights_settings_title">"Paramètres des lumières"</string>
     <string name="backlight_title">"Rétroéclairage automatique"</string>
     <string name="backlight_summary">"Tweaks et niveaux de filtrage"</string>
     <string name="light_filter_title">"Filtrage du capteur de lumière"</string>
