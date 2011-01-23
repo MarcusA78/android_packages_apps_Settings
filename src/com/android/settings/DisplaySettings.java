@@ -85,12 +85,16 @@ public class DisplaySettings extends PreferenceActivity implements
         mNotificationPowerWidget = (CheckBoxPreference) prefSet.findPreference(KEY_NOTIF_POWER_WIDGET);
 		mPowerWidgetHideOnChange = (CheckBoxPreference) prefSet.findPreference(KEY_POWER_WIDGET_HIDE_ON_CHANGE);
 		
-		mNotificationPowerWidget.setChecked(Settings.System.getInt(getContentResolver(),
-				Settings.System.EXPANDED_VIEW_WIDGET, 1) == 1);
+		boolean notifPowerWidgetEnabled = Settings.System.getInt(getContentResolver(),
+				Settings.System.EXPANDED_VIEW_WIDGET, 1) == 1;
+		
+		mNotificationPowerWidget.setChecked(notifPowerWidgetEnabled);
+		mPowerWidgetHideOnChange.setEnabled(notifPowerWidgetEnabled);
         mPowerWidgetHideOnChange.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.EXPANDED_HIDE_ONCHANGE, 0) == 1));
         
         mNotificationWidgets = (PreferenceScreen) prefSet.findPreference(KEY_WIDGETS_PICKER);
+        mNotificationWidgets.setEnabled(notifPowerWidgetEnabled);
     }
 
     private void disableUnusableTimeouts(ListPreference screenTimeoutPreference) {
