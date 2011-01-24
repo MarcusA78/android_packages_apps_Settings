@@ -800,8 +800,8 @@
     <string name="service_started_by_app" msgid="6575184738671598131">"Service démarré par l\'application"</string>
     <!-- no translation found for service_client_name (4037193625611815517) -->
     <skip />
-    <string name="service_background_processes" msgid="6844156253576174488">"<xliff:g id="MEMORY">%1$s</xliff:g> gratuit"</string>
-    <string name="service_foreground_processes" msgid="7583975676795574276">"<xliff:g id="MEMORY">%1$s</xliff:g> utilisé"</string>
+    <string name="service_background_processes" msgid="6844156253576174488">"<xliff:g id="MEMORY">%1$s</xliff:g> libre(s)"</string>
+    <string name="service_foreground_processes" msgid="7583975676795574276">"<xliff:g id="MEMORY">%1$s</xliff:g> utilisé(s)"</string>
     <string name="memory" msgid="6609961111091483458">"RAM"</string>
     <!-- no translation found for service_process_name (4098932168654826656) -->
     <skip />
@@ -1256,7 +1256,7 @@
     <string name="title_toggle_wifiap">"Activer le point d'accès wifi"</string>
     <string name="title_toggle_screentimeout">"Temps de mise en veille"</string>
     <string name="title_toggle_mobiledata">"Activer les données"</string>
-    <string name="title_toggle_lockscreen">"Vérouiller"</string>
+    <string name="title_toggle_lockscreen">"Vérrouiller"</string>
     <string name="title_toggle_networkmode">"Activer 2G/3G"</string>
     <string name="title_toggle_autorotate">"Activer l'orientation"</string>
     <string name="title_toggle_airplane">"Activer le mode avion"</string>
