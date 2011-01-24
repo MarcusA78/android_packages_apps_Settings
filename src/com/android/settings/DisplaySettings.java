@@ -86,7 +86,7 @@ public class DisplaySettings extends PreferenceActivity implements
 		mPowerWidgetHideOnChange = (CheckBoxPreference) prefSet.findPreference(KEY_POWER_WIDGET_HIDE_ON_CHANGE);
 		
 		boolean notifPowerWidgetEnabled = Settings.System.getInt(getContentResolver(),
-				Settings.System.EXPANDED_VIEW_WIDGET, 1) == 1;
+				Settings.System.EXPANDED_VIEW_WIDGET, 0) == 1;
 		
 		mNotificationPowerWidget.setChecked(notifPowerWidgetEnabled);
 		mPowerWidgetHideOnChange.setEnabled(notifPowerWidgetEnabled);
