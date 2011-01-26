@@ -95,7 +95,7 @@ public class DisplaySettings extends PreferenceActivity implements
 		mPowerWidgetHideOnChange.setEnabled(notifPowerWidgetEnabled);
         mPowerWidgetHideOnChange.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.EXPANDED_HIDE_ONCHANGE, 0) == 1));
-        mUseColoredInd.setEnabled(notifPowerWidetEnabled);
+        mUseColoredInd.setEnabled(notifPowerWidgetEnabled);
         mUseColoredInd.setChecked((Settings.System.getInt(getContentResolver(),
         		Settings.System.EXPANDED_VIEW_WIDGET_USE_COLORED_IND, 0) == 1));
         
