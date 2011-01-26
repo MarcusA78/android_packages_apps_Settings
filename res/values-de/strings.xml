@@ -1162,4 +1162,171 @@
     <string name="sound_category_calls_title" msgid="3688531959256239012">"Eingehende Anrufe"</string>
     <string name="sound_category_notification_title" msgid="3502115998790286943">"Benachrichtigungen"</string>
     <string name="sound_category_feedback_title" msgid="4399742321363475393">"Feedback"</string>
+
+<!--Adds-->
+
+    <string name="possibleButtons">Mögliche Schaltflächen</string>
+    <string name="toggleWifi">Wi-Fi</string>
+    <string name="toggleWifiAp">Mobiler Wi-Fi hotspot</string>
+    <string name="toggleBluetooth">Bluetooth</string>
+    <string name="toggleGPS">GPS</string>
+    <string name="toggleData">Mobile Daten</string>
+    <string name="toggleSync">Datensynchronisierung</string>
+    <string name="toggle2g3g">2G/3G</string>
+    <string name="toggleSound">Klingelmodus</string>
+    <string name="toggleBrightness">Helligkeit</string>
+    <string name="toggleAutoRotate">Orientierung</string>
+    <string name="toggleScreenTimeout">Abschaltzeit des Displays</string>
+    <string name="toggleAirplane">Flugmodus</string>
+    <string name="toggleLockScreen">Bildschirm sperren</string>
+
+    <string name="toggleWifiDescription">Wifi de-/aktivieren</string>
+    <string name="toggleWifiApDescription">Mobilen Wi-Fi hotspot de-/aktivieren</string>
+    <string name="toggleBluetoothDescription">Bluetooth de-/aktivieren</string>
+    <string name="toggleGPSDescription">GPS de-/aktivieren</string>
+    <string name="toggleDataDescription">Mobile Daten de-/aktivieren</string>
+    <string name="toggleSyncDescription">Datensynchronisierung de-/aktivieren</string>
+    <string name="toggle2g3gDescription">Zwischen 2G und 3G umschalten</string>
+    <string name="toggleSoundDescription">Zwischen Klingeln und Vibrationsalarm umschalten</string>
+    <string name="toggleBrightnessDescription">Helligkeitsstufen umschalten</string>
+    <string name="toggleAutoRotateDescription">Orientierungssensor de-/aktivieren</string>
+    <string name="toggleScreenTimeoutDescription">Unterschiedliche Abschaltzeiten des Displays setzen</string>
+    <string name="toggleAirplaneDescription">Flugmodus de-/aktivieren</string>
+    <string name="toggleLockScreenDescription">Displaysperre de-/aktivieren</string>
+
+    
+    <string name="widgetSettings">Widget-Instanzeinstellungen</string>
+    <string name="wifiSettings">Wifi-Ereigniseinstellungen</string>
+    <string name="dataSettings">Daten-Ereigniseinstellungen</string>
+    <string name="powerSettings">Power-Ereigniseinstellungen</string>
+
+    <string name="generalSettings">Allgemeine Einstellungen</string>
+
+    <string name="autoDisable3G">Daten deaktivieren 3G</string>
+    <string name="autoEnable3G">Daten aktivieren 3G</string>
+    <string name="autoDisable3GWithWifi">Wifi deaktivieren 3G</string>
+    <string name="autoEnable3GWithWifi">Wifi aktivieren 3G</string>
+    <string name="useRoundCorners">Runde Ecken</string>
+    <string name="useVertical">Vertikale Ausrichtung</string>
+    <string name="useTransparent">Transparentes Widget</string>
+    <string name="autoEnableSyncWithWifi">Wifi aktiviert Sync</string>
+    <string name="autoDisableSyncWithWifi">Wifi deaktiviert Sync</string>
+    <string name="ringModeVibrateAsOn">Bei ON vibrieren</string>
+    <string name="monitorDataRoaming">Datenrooming überwachen</string>
+    <string name="autoEnableBluetoothWithPower">Ext. PWR aktiviert Bluetooth</string>
+	<string name="autoDisableBluetoothWithPower">Ext. PWR deaktiviert Bluetooth</string>
+	<string name="autoEnableWifiWithPower">Ext. PWR aktiviert Wifi</string>
+	<string name="autoDisableWifiWithPower">Ext. PWR deaktiviert Wifi</string>
+  
+    <string name="autoDisable3GDescription">2G wenn mobile Daten deaktiviert</string>
+    <string name="autoEnable3GDescription">3G wenn mobile Daten aktiviert</string>
+    <string name="autoDisable3GWithWifiDescription">2G wenn Wifi aktiviert ist</string>
+    <string name="autoEnable3GWithWifiDescription">3G wenn Wifi deaktiviert ist</string>
+    <string name="useRoundCornersDescription">Runde Widgetsymbole nutzen</string>
+    <string name="useTransparentDescription">Keinen Widgethintergrund</string>
+    <string name="useVerticalDescription">Mit vertikaler Orientierung anzeigen</string>
+    <string name="autoEnableSyncWithWifiDescription">Sync aktivieren wenn Wifi aktiviert ist</string>
+    <string name="autoDisableSyncWithWifiDescription">Sync deaktivieren wenn Wifi deaktiviert ist</string>
+    <string name="ringModeVibrateAsOnDescription">Sound-An anzeigen, auch wenn nur im Vibrationsmodus</string>
+    <string name="monitorDataRoamingDescription">Data status red if data roaming is enabled</string>
+    <string name="autoEnableBluetoothWithPowerDescription">Bluetooth aktivieren wenn mit Ladegerät verbunden</string>
+    <string name="autoDisableBluetoothWithPowerDescription">Bluetooth deaktivieren wenn vom Ladegerät getrennt</string>
+    <string name="autoEnableWifiWithPowerDescription">Wifi aktivieren wenn mit Ladegerät verbunden</string>
+    <string name="autoDisableWifiWithPowerDescription">Wifi deaktivieren wenn vom Ladegerät getrennt</string>
+
+    <string name="networkModeSpinner">Netzwerkmodus auswählen</string>
+    <string name="brightnessSpinner">Helligkeitsstufen auswählen</string>
+    <string name="ringModeSpinner">Klingelmodus auswählen</string>
+    <string name="screenTimeoutSpinner">Abschaltzeit des Displays auswählen</string>
+    <string name="backgroundImageSpinner">Hintergrund auswählen</string>
+    
+    <!-- Expanded View Power Widget -->
+    <string name="use_notif_power_widget_title">Notification Power Widget nutzen</string>
+    <string name="title_widget_buttons">Erweiterte Widgetansicht</string>
+    <string name="title_expanded_widget">Notification Power Widget</string>
+    <string name="summary_expanded_widget">Erweiterte Ansicht der Power Widgets nutzen</string>
+    <string name="title_expanded_hide_onchange">Nach Änderung ausblenden</string>
+    <string name="summary_expanded_hide_onchange">Benachrichtigungsansicht nach dem Umschalten ausblenden</string>
+    <string name="expanded_color_mask">Indikatorfarbe</string>
+    <string name="title_widget_picker">Widgeteinstellungen</string>
+    <string name="summary_widget_picker">Wählen Sie die Schaltflächen aus</string>
+    <string name="title_toggle_wifi">Wifi umschalten</string>
+    <string name="title_toggle_bluetooth">Bluetooth umschalten</string>
+    <string name="title_toggle_gps">GPS umschalten</string>
+    <string name="title_toggle_sound">Sound umschalten</string>
+    <string name="title_toggle_brightness">Helligkeit umschalten</string>
+    <string name="title_toggle_sync">Sync umschalten</string>
+    <string name="title_toggle_wifiap">Wifi AP umschalten</string>
+    <string name="title_toggle_screentimeout">Displayabschaltzeit umschalten</string>
+    <string name="title_toggle_mobiledata">Mobile Daten umschalten</string>
+    <string name="title_toggle_lockscreen">Displaysperre umschalten</string>
+    <string name="title_toggle_networkmode">2G/3G umschalten</string>
+    <string name="title_toggle_autorotate">Orientierung umschalten</string>
+    <string name="title_toggle_airplane">Flugmodus umschalten</string>
+    <string name="title_toggle_sleep">Schlafmodus</string>
+    <string name="widget_max_buttons">Es können maximal sechs Schaltflächen angezeigt werden.</string>
+    
+    <string name="notConfigured">Nich konfiguriert. Bitte neu hinzufügen.</string>
+    
+    <string name="toggleFlashlightDescription">Blitzlichtmodus de-/aktivieren</string>
+    <string name="toggleFlashlight">Blitzlicht</string>
+
+    <string name="ok">Ok</string>
+
+    <!-- Widget Picker -->
+    <string name="widget_count">(%d Widgets)</string>
+    
+    <!-- Trackpad and Menu key settings -->
+    <string name="trackpad_cat">Aufwach-/Entsperreinstellungen</string>
+    <string name="menu_unlock_title">Entsperrmunü</string>
+    <string name="trackpad_wake_title">Mit Trackpad aufwecken</string>
+    <string name="trackpad_unlock_title">Mit Trackpad entsperren</string>
+    <string name="menu_unlock_summary">Gerät mit Menütaste aufwecken</string>
+    <string name="trackpad_unlock_summary">Gerät mit Menütaste entsperren</string>
+    <string name="trackpad_wake_summary">Gerät mit Trackpad aufwecken</string>
+    
+    <!-- Backlight -->
+    <string name="backlight_title">Automatische Hintergrundlicht</string>
+    <string name="backlight_summary">Stufen und Filterung optimieren</string>
+    <string name="light_filter_title">Lichtsensorfilter</string>
+    <string name="light_filter_enabled_title">Aktiviert</string>
+    <string name="light_filter_enabled_summary">Durchschnittliche Sensordaten nutzen um das Flackern zu reduzieren.</string>
+    <string name="light_filter_window_title">Fensterlänge</string>
+    <string name="light_filter_window_summary">Gefilterten wert als Durchschnittswert für diesen Zeitraum nutzen.</string>
+    <string name="light_filter_reset_title">Schwelle zurücksetzen</string>
+    <string name="light_filter_reset_summary">---.</string>
+    <string name="light_filter_interval_title">Messintervall</string>
+    <string name="light_filter_interval_summary">Ein niedriger Wert erhöht die Genauigkeit, verbraucht aber mehr Rechenzeit.</string>
+    <string name="light_levels_title">Lichtstufen</string>
+    <string name="light_levels_enabled_title">Eigene Einstellungen</string>
+    <string name="light_levels_dim_title">Display-Dimm-Stufen</string>
+    <string name="light_levels_dim_summary">Helligkeit nutzen um das Display zu dimmen</string>
+    <string name="light_levels_editor_title">Andere Stufen bearbeiten...</string>
+    <string name="light_decrease_enabled_title">Absenken des Lichts erlauben</string>
+    <string name="light_decrease_enabled_summary">Aktiviert das Absenken des Lichtes. Hysterese nutzen um Flackern zu vermeiden.</string>
+    <string name="light_decrease_hysteresis_title">Hysterese für das Absenken</string>
+    <string name="light_decrease_hysteresis_summary">Sensorstufen überlappen.</string>
+
+    <!-- Light sensor levels -->
+    <string name="lights_settings_title">Lichteinstellungen</string>
+    <string name="ll_title">Lichtsensorstufe</string>
+    <string name="ll_header_upper">Höher</string>
+    <string name="ll_header_lower">Niedriger</string>
+    <string name="ll_header_lcd">Display</string>
+    <string name="ll_header_btn">Schaltflächen</string>
+    <string name="ll_header_kb">Keyboard</string>
+    <string name="ll_lux">Sensor (gefiltert / roh):</string>
+    <string name="ll_lcd">Display:</string>
+    <string name="ll_btn">Buttons:</string>
+    <string name="ll_kb">Tastatur:</string>
+    <string name="ll_disabled">deaktiviert</string>
+    <string name="ll_default">Voreinstellungen laden</string>
+    <string name="ll_save">Speichern &amp; anwenden</string>
+    <string name="ll_reload">Aktuelle Einstellungen neu laden</string>
+    <string name="ll_bad_levels">Stufen müssen ansteigen</string>
+    <string name="ll_num_levels">Stufenanzahl einstellen</string>
+    
+    <string name="move_all_apps_to_sd_title">Auf SD-Karte schieben</string>
+    <string name="move_all_apps_to_sd_summary">Das Verschieben aller Apps auf SD-Karte erlauben</string>
+
 </resources>
