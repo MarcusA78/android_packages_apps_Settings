@@ -50,11 +50,13 @@ public class DisplaySettings extends PreferenceActivity implements
     
     private static final String KEY_NOTIF_POWER_WIDGET = "use_notif_power_widget";
     private static final String KEY_POWER_WIDGET_HIDE_ON_CHANGE = "notif_power_widget_hide_on_change";
+    private static final String KEY_USE_COLORED_IND = "notif_power_widget_use_colored_ind";
 
     private ListPreference mAnimations;
     private CheckBoxPreference mAccelerometer;
     private CheckBoxPreference mNotificationPowerWidget;
     private CheckBoxPreference mPowerWidgetHideOnChange;
+    private CheckBoxPreference mUseColoredInd;
     private PreferenceScreen mNotificationWidgets;
     private float[] mAnimationScales;
 
@@ -84,6 +86,7 @@ public class DisplaySettings extends PreferenceActivity implements
         
         mNotificationPowerWidget = (CheckBoxPreference) prefSet.findPreference(KEY_NOTIF_POWER_WIDGET);
 		mPowerWidgetHideOnChange = (CheckBoxPreference) prefSet.findPreference(KEY_POWER_WIDGET_HIDE_ON_CHANGE);
+		mUseColoredInd           = (CheckBoxPreference) prefSet.findPreference(KEY_USE_COLORED_IND);
 		
 		boolean notifPowerWidgetEnabled = Settings.System.getInt(getContentResolver(),
 				Settings.System.EXPANDED_VIEW_WIDGET, 0) == 1;
@@ -92,6 +95,9 @@ public class DisplaySettings extends PreferenceActivity implements
 		mPowerWidgetHideOnChange.setEnabled(notifPowerWidgetEnabled);
         mPowerWidgetHideOnChange.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.EXPANDED_HIDE_ONCHANGE, 0) == 1));
+        mUseColoredInd.setEnabled(notifPowerWidetEnabled);
+        mUseColoredInd.setChecked((Settings.System.getInt(getContentResolver(),
+        		Settings.System.EXPANDED_VIEW_WIDGET_USE_COLORED_IND, 0) == 1));
         
         mNotificationWidgets = (PreferenceScreen) prefSet.findPreference(KEY_WIDGETS_PICKER);
         mNotificationWidgets.setEnabled(notifPowerWidgetEnabled);
@@ -207,6 +213,13 @@ public class DisplaySettings extends PreferenceActivity implements
 			Settings.System.putInt(getContentResolver(),
                     Settings.System.EXPANDED_HIDE_ONCHANGE,
                     value ? 1 : 0);
+        }
+        
+        if (preference == mUseColoredInd) {
+        	value = mUseColoredInd.isChecked();
+        	Settings.System.putInt(getContentResolver(),
+        			Settings.System.EXPANDED_VIEW_WIDGET_USE_COLORED_IND,
+        			value ? 1 : 0);
         }
         
         return super.onPreferenceTreeClick(preferenceScreen, preference);

@@ -1247,6 +1247,7 @@
     <string name="title_expanded_widget">"Widget de la barre de notifications"</string>
     <string name="title_widget_buttons">"Boutons du widget"</string>
     <string name="summary_expanded_hide_onchange">"Cacher la barre après un changement."</string>
+    <string name="title_use_colored_ind">"Indicateur coloré"</string>
     <string name="title_toggle_wifi">"Activer le Wifi"</string>
     <string name="title_toggle_bluetooth">"Activer le Bluetooth"</string>
     <string name="title_toggle_gps">"Activer le GPS"</string>

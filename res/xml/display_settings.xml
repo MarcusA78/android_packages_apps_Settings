@@ -49,6 +49,9 @@
 			<CheckBoxPreference
 				android:key="notif_power_widget_hide_on_change"
 				android:title="@string/title_expanded_hide_onchange"/>
+			<CheckBoxPreference
+				android:key="notif_power_widget_use_colored_ind"
+				android:title="@string/title_use_colored_ind"/>
 
 			<PreferenceScreen
 					android:key="notif_power_widget_picker"
