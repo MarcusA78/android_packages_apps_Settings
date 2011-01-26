@@ -206,6 +206,7 @@ public class DisplaySettings extends PreferenceActivity implements
 
         	mPowerWidgetHideOnChange.setEnabled(value);
         	mNotificationWidgets.setEnabled(value);
+        	mUseColoredInd.setEnabled(value);
         }
         
         if (preference == mPowerWidgetHideOnChange) {
